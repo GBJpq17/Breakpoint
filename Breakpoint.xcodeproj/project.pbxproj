@@ -13,6 +13,7 @@
 		396DC3531F64776F00AB402F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396DC3511F64776F00AB402F /* Main.storyboard */; };
 		396DC3551F64776F00AB402F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396DC3541F64776F00AB402F /* Assets.xcassets */; };
 		396DC3581F64776F00AB402F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396DC3561F64776F00AB402F /* LaunchScreen.storyboard */; };
+		396DC3661F647DD500AB402F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396DC3651F647DD500AB402F /* DataService.swift */; };
 		548FD2D6D35DE54098C39BA6 /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAB62F47FBACB2F2A289CF8 /* Pods_Breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		396DC3571F64776F00AB402F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		396DC3591F64776F00AB402F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		396DC3641F64797B00AB402F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		396DC3651F647DD500AB402F /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		4AAB62F47FBACB2F2A289CF8 /* Pods_Breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 		396DC3631F64784C00AB402F /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				396DC3651F647DD500AB402F /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				396DC3501F64776F00AB402F /* SecondViewController.swift in Sources */,
 				396DC34C1F64776F00AB402F /* AppDelegate.swift in Sources */,
 				396DC34E1F64776F00AB402F /* FirstViewController.swift in Sources */,
+				396DC3661F647DD500AB402F /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
