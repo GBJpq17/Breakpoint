@@ -9,7 +9,7 @@
 import Foundation
 import Firebase
 
-let DB_BASE = FIRDatabase.database().reference()
+let DB_BASE = Database.database().reference()
 
 class DataService {
     static let instance = DataService()
@@ -19,19 +19,19 @@ class DataService {
     private var _REF_GROUPS = DB_BASE.child("groups")
     private var _REF_FEED = DB_BASE.child("feed")
     
-    var REF_BASE: FIRDatabaseReference {
+    var REF_BASE: DatabaseReference {
         return _REF_BASE
     }
     
-    var REF_USERS: FIRDatabaseReference {
+    var REF_USERS: DatabaseReference {
         return _REF_USERS
     }
     
-    var REF_GROUPS: FIRDatabaseReference {
+    var REF_GROUPS: DatabaseReference {
         return _REF_GROUPS
     }
     
-    var REF_FEED: FIRDatabaseReference {
+    var REF_FEED: DatabaseReference {
         return _REF_FEED
     }
     
