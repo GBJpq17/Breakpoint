@@ -19,6 +19,7 @@
 		396DC3661F647DD500AB402F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396DC3651F647DD500AB402F /* DataService.swift */; };
 		39C5D9F31F6D7CF90067971C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39C5D9F21F6D7CEB0067971C /* GoogleService-Info.plist */; };
 		39C5D9F51F6D7D300067971C /* ShadownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C5D9F41F6D7D300067971C /* ShadownView.swift */; };
+		39C5D9F71F6D7FF70067971C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C5D9F61F6D7FF70067971C /* AuthService.swift */; };
 		548FD2D6D35DE54098C39BA6 /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAB62F47FBACB2F2A289CF8 /* Pods_Breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		396DC3651F647DD500AB402F /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		39C5D9F21F6D7CEB0067971C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		39C5D9F41F6D7D300067971C /* ShadownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadownView.swift; sourceTree = "<group>"; };
+		39C5D9F61F6D7FF70067971C /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		4AAB62F47FBACB2F2A289CF8 /* Pods_Breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				396DC3651F647DD500AB402F /* DataService.swift */,
+				39C5D9F61F6D7FF70067971C /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				394E09EB1F6D751800E56F84 /* AuthVC.swift in Sources */,
 				396DC3501F64776F00AB402F /* SecondViewController.swift in Sources */,
 				394E09ED1F6D754B00E56F84 /* LoginVC.swift in Sources */,
+				39C5D9F71F6D7FF70067971C /* AuthService.swift in Sources */,
 				39C5D9F51F6D7D300067971C /* ShadownView.swift in Sources */,
 				396DC34C1F64776F00AB402F /* AppDelegate.swift in Sources */,
 				396DC34E1F64776F00AB402F /* FirstViewController.swift in Sources */,
