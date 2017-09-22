@@ -17,6 +17,7 @@
 		396DC3551F64776F00AB402F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 396DC3541F64776F00AB402F /* Assets.xcassets */; };
 		396DC3581F64776F00AB402F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 396DC3561F64776F00AB402F /* LaunchScreen.storyboard */; };
 		396DC3661F647DD500AB402F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396DC3651F647DD500AB402F /* DataService.swift */; };
+		3971ED341F754638000F7270 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3971ED331F754638000F7270 /* MeVC.swift */; };
 		39C5D9F31F6D7CF90067971C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39C5D9F21F6D7CEB0067971C /* GoogleService-Info.plist */; };
 		39C5D9F51F6D7D300067971C /* ShadownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C5D9F41F6D7D300067971C /* ShadownView.swift */; };
 		39C5D9F71F6D7FF70067971C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C5D9F61F6D7FF70067971C /* AuthService.swift */; };
@@ -38,6 +39,7 @@
 		396DC3571F64776F00AB402F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		396DC3591F64776F00AB402F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		396DC3651F647DD500AB402F /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		3971ED331F754638000F7270 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		39C5D9F21F6D7CEB0067971C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		39C5D9F41F6D7D300067971C /* ShadownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadownView.swift; sourceTree = "<group>"; };
 		39C5D9F61F6D7FF70067971C /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				396DC34F1F64776F00AB402F /* GroupsVC.swift */,
 				394E09EA1F6D751800E56F84 /* AuthVC.swift */,
 				394E09EC1F6D754B00E56F84 /* LoginVC.swift */,
+				3971ED331F754638000F7270 /* MeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3971ED341F754638000F7270 /* MeVC.swift in Sources */,
 				394E09EB1F6D751800E56F84 /* AuthVC.swift in Sources */,
 				396DC3501F64776F00AB402F /* GroupsVC.swift in Sources */,
 				394E09ED1F6D754B00E56F84 /* LoginVC.swift in Sources */,
