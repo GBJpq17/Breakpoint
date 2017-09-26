@@ -24,6 +24,7 @@
 		39C5D9F31F6D7CF90067971C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 39C5D9F21F6D7CEB0067971C /* GoogleService-Info.plist */; };
 		39C5D9F51F6D7D300067971C /* ShadownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C5D9F41F6D7D300067971C /* ShadownView.swift */; };
 		39C5D9F71F6D7FF70067971C /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C5D9F61F6D7FF70067971C /* AuthService.swift */; };
+		39D4D33B1F79E59800B3A7A5 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D4D33A1F79E59800B3A7A5 /* Message.swift */; };
 		548FD2D6D35DE54098C39BA6 /* Pods_Breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAB62F47FBACB2F2A289CF8 /* Pods_Breakpoint.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		39C5D9F21F6D7CEB0067971C /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		39C5D9F41F6D7D300067971C /* ShadownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadownView.swift; sourceTree = "<group>"; };
 		39C5D9F61F6D7FF70067971C /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		39D4D33A1F79E59800B3A7A5 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		4AAB62F47FBACB2F2A289CF8 /* Pods_Breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -126,6 +128,7 @@
 		396DC3611F64780200AB402F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				39D4D33A1F79E59800B3A7A5 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				396DC34E1F64776F00AB402F /* FeedVC.swift in Sources */,
 				394E09EF1F6D759E00E56F84 /* InsetTextField.swift in Sources */,
 				396DC3661F647DD500AB402F /* DataService.swift in Sources */,
+				39D4D33B1F79E59800B3A7A5 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
