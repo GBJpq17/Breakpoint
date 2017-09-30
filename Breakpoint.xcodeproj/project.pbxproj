@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3936662A1F802D53001B94DD /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393666291F802D53001B94DD /* CreateGroupsVC.swift */; };
 		394E09EB1F6D751800E56F84 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394E09EA1F6D751800E56F84 /* AuthVC.swift */; };
 		394E09ED1F6D754B00E56F84 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394E09EC1F6D754B00E56F84 /* LoginVC.swift */; };
 		394E09EF1F6D759E00E56F84 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394E09EE1F6D759E00E56F84 /* InsetTextField.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		18D8CA273A8375A0442C48FC /* Pods-Breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 		2DE004DC61C84AF0A5314448 /* Pods-Breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Breakpoint/Pods-Breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
+		393666291F802D53001B94DD /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		394E09EA1F6D751800E56F84 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		394E09EC1F6D754B00E56F84 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		394E09EE1F6D759E00E56F84 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				394E09EC1F6D754B00E56F84 /* LoginVC.swift */,
 				3971ED331F754638000F7270 /* MeVC.swift */,
 				39C2316F1F75A3930006ADB2 /* CreatePostVC.swift */,
+				393666291F802D53001B94DD /* CreateGroupsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				394E09ED1F6D754B00E56F84 /* LoginVC.swift in Sources */,
 				39C5D9F71F6D7FF70067971C /* AuthService.swift in Sources */,
 				39C5D9F51F6D7D300067971C /* ShadownView.swift in Sources */,
+				3936662A1F802D53001B94DD /* CreateGroupsVC.swift in Sources */,
 				396DC34C1F64776F00AB402F /* AppDelegate.swift in Sources */,
 				39C231701F75A3930006ADB2 /* CreatePostVC.swift in Sources */,
 				39C231721F75A9E30006ADB2 /* UIViewExt.swift in Sources */,
